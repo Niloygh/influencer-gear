@@ -65,6 +65,14 @@ nav{
     font-size: 20px;
 }
 
+main{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+main> section{
+    margin-top: 100px;
+}
 /* banner section  */
 
 .banner-container{
@@ -89,12 +97,89 @@ nav{
     gap: 10px;
 }
 
-.img-1{
-    width: 100%;
-}
 .img-2{
-    position: absolute;
-    top: 20%;
-    left: 66%;
-    width: 370px;
+    padding: 20px 0 0 20px;
 }
+
+.banner-img{
+    background: url(../images/Circle\ design.svg);
+}
+
+
+/* sponsor section  */
+#sponsor {
+    display: flex;
+    gap: 61px;
+    border-top: 1px solid rgba(71, 67, 67, 0.178);
+    border-bottom: 1px solid rgba(71, 67, 67, 0.178);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* card section  */
+#card .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    max-width: 329px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+.card .card-title{
+    font-size: 28PX;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 6px;
+}
+.card p{
+    font-size: 24px;
+}
+.card .doller{
+    font-size: 14px;
+    margin-left: 10px;
+    color: #787885;
+}
+
+.card .text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #787885;
+}
+.card-btn{
+    border: 0;
+    font-size: 16px;
+    background-color: white;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: right;
+}
+.card-btn img{
+    color: rgba(224, 44, 109, 0.87);
+}
+
+
+/* features section  */
+.feature-container{
+    display: flex;
+    gap: 96px;
+}
+.feature-content{
+    padding: 10px;
+}
+.feature-text{
+    width: 500px;
+    margin: 15px 0;
+}
+#feature .btn{
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 13px 30px;
+}
+
