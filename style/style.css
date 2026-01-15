@@ -14,6 +14,7 @@
 
 /* shared style */
 
+
 .primary-color{
     color: #3A3A3A;
 }
@@ -22,9 +23,21 @@
     display: flex;
 }
 
+.btn{
+    border: 0;
+    color: white;
+    background-color: #E02C6D;
+    padding: 13px 26px ;
+    border-radius: 41px;
+}
+
 
 
 /* main css */
+
+
+
+/* header section  */
 
 /* nav section  */
 nav{
@@ -50,4 +63,38 @@ nav{
 }
 .manu i{
     font-size: 20px;
+}
+
+/* banner section  */
+
+.banner-container{
+    max-width: 1155px;
+    margin: 0 auto;
+    gap: 130px;
+    align-items: center;
+}
+
+.banner-heading{
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: bold;
+}
+#banner p{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#banner .btn {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.img-1{
+    width: 100%;
+}
+.img-2{
+    position: absolute;
+    top: 20%;
+    left: 66%;
+    width: 370px;
 }
