@@ -271,6 +271,10 @@ footer P {
         display: none;
     }
 
+    nav{
+        justify-content: space-around;
+    }
+    
     .logo {
         font-size: 16px;
     }
@@ -325,7 +329,7 @@ footer P {
 
     #sponsor {
         /* max-width: 257px; */
-        margin: 0 auto;
+        margin: 50px auto;
         border: 0;
         display: flex;
         flex-wrap: wrap;
@@ -351,9 +355,129 @@ footer P {
     .feature-text{
         font-size: 16px;
         line-height: 28px;
+        margin: 0 auto;
     }
     .feature-img img{
         width: 100%;
     }
 
+    .footer-heading{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-container, .feature-container {
+        flex-direction: column;
+        gap: 14px;
+
+    }
+
+    main>section {
+        margin-top: 80px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    nav{
+        justify-content: space-around;
+    }
+    .logo {
+        font-size: 32px;
+    }
+
+    .navbar-icon {
+        display: block;
+    }
+
+    .manu {
+        gap: 10px;
+    }
+
+    .banner-content, .feature-img {
+        order: 2;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner-img {
+        order: 1;
+        width: 300px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .banner-heading {
+        font-size: 34px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 44px;
+    }
+
+    .banner-img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #banner P {
+        font-size: 16px;
+        text-align: center;
+        max-width: 320px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .banner-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #sponsor {
+        /* max-width: 257px; */
+        margin: 50px auto;
+        border: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0;
+        
+    }
+
+    #card .container {
+        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .feature-heading{
+        font-size: 24px;
+        text-align: center;
+    }
+    .feature-text{
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    #feature .btn{
+        margin: 0 auto ;
+    }
+
+    .footer-heading{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 14px;
+    }
 }
